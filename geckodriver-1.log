@@ -1,0 +1,22 @@
+1674300802409	geckodriver	INFO	Listening on 127.0.0.1:50600
+1674300805469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileUHSnGA"
+1674300806544	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674300806553	Marionette	INFO	Listening on port 50609
+Read port: 50609
+WebDriver BiDi listening on ws://127.0.0.1:50601
+1674300806849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileUHSnGA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50601/devtools/browser/d53de3eb-5935-4517-81cb-d9617b5f930f
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674300929740	Marionette	INFO	Stopped listening on port 50609
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

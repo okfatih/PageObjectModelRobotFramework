@@ -1,0 +1,37 @@
+1674301666649	geckodriver	INFO	Listening on 127.0.0.1:51385
+1674301669703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileC6GqY8"
+1674301670231	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674301670241	Marionette	INFO	Listening on port 51393
+Read port: 51393
+WebDriver BiDi listening on ws://127.0.0.1:51386
+1674301670546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileC6GqY8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51386/devtools/browser/d090591c-e00a-4e62-9507-129e330f2e5a
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.error: "stylesheets: fetch failed for http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700, using system principal instead."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674303832895	Marionette	INFO	Stopped listening on port 51393
+Dynamically enable window occlusion 1

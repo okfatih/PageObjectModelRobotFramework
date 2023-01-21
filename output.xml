@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230121 13:52:09.788" rpa="false" schemaversion="3">
+<suite id="s1" name="Register" source="C:\Users\Admin\PycharmProjects\PageObjectModel\TestCases\Register.robot">
+<test id="s1-t1" name="Registeration Test" line="11">
+<kw name="Open my Browser" library="RegisterKeywords">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230121 13:52:10.166" level="INFO">Opening browser 'chrome' to base url 'https://demo.guru99.com/test/newtours/'.</msg>
+<status status="PASS" starttime="20230121 13:52:10.165" endtime="20230121 13:52:14.670"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230121 13:52:14.670" endtime="20230121 13:52:14.805"/>
+</kw>
+<status status="PASS" starttime="20230121 13:52:10.165" endtime="20230121 13:52:14.805"/>
+</kw>
+<kw name="Click Register Link" library="RegisterKeywords">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${link_Reg}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230121 13:52:14.808" level="INFO">Clicking link 'link:REGISTER'.</msg>
+<msg timestamp="20230121 13:52:16.220" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230121 13:52:16.220" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a href="register.php" style="color: #0000ee;text-decoration: underline;"&gt;...&lt;/a&gt; is not clickable at point (450, 284). Other element would receive the click: &lt;div id="gdpr-consent-tool-wrapper" tabindex="-1" aria-hidden="true" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);"&gt;...&lt;/div&gt;
+  (Session info: chrome=109.0.5414.75)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00A06643]
+	(No symbol) [0x0099BE21]
+	(No symbol) [0x0089DA9D]
+	(No symbol) [0x008D92B2]
+	(No symbol) [0x008D6970]
+	(No symbol) [0x008D3E0B]
+	(No symbol) [0x008D2548]
+	(No symbol) [0x008C6B13]
+	(No symbol) [0x008EFD7C]
+	(No symbol) [0x008C641F]
+	(No symbol) [0x008F00D4]
+	(No symbol) [0x00906B09]
+	(No symbol) [0x008EFB76]
+	(No symbol) [0x008C49C1]
+	(No symbol) [0x008C5E5D]
+	GetHandleVerifier [0x00C7A142+2497106]
+	GetHandleVerifier [0x00CA85D3+2686691]
+	GetHandleVerifier [0x00CABB9C+2700460]
+	GetHandleVerifier [0x00AB3B10+635936]
+	(No symbol) [0x009A4A1F]
+	(No symbol) [0x009AA418]
+	(No symbol) [0x009AA505]
+	(No symbol) [0x009B508B]
+	BaseThreadInitThunk [0x754600F9+25]
+	RtlGetAppContainerNamedObjectPath [0x775E7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x775E7B8E+238]
+</msg>
+<status status="FAIL" starttime="20230121 13:52:14.807" endtime="20230121 13:52:16.224"/>
+</kw>
+<status status="FAIL" starttime="20230121 13:52:14.806" endtime="20230121 13:52:16.224"/>
+</kw>
+<kw name="Enter FirstName" library="RegisterKeywords">
+<status status="NOT RUN" starttime="20230121 13:52:16.225" endtime="20230121 13:52:16.225"/>
+</kw>
+<status status="FAIL" starttime="20230121 13:52:10.163" endtime="20230121 13:52:16.226">ElementClickInterceptedException: Message: element click intercepted: Element &lt;a href="register.php" style="color: #0000ee;text-decoration: underline;"&gt;...&lt;/a&gt; is not clickable at point (450, 284). Other element would receive the click: &lt;div id="gdpr-consent-tool-wrapper" tabindex="-1" aria-hidden="true" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483647; background: rgba(0, 0, 0, 0.5);"&gt;...&lt;/div&gt;
+  (Session info: chrome=109.0.5414.75)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00A06643]
+	(No symbol) [0x0099BE21]
+	(No symbol) [0x0089DA9D]
+	(No symbol) [0x008D92B2]
+	(No symbol) [0x008D6970]
+	(No symbol) [0x008D3E0B]
+	(No symbol) [0x008D2548]
+	(No symbol) [0x008C6B13]
+	(No symbol) [0x008EFD7C]
+	(No symbol) [0x008C641F]
+	(No symbol) [0x008F00D4]
+	(No symbol) [0x00906B09]
+	(No symbol) [0x008EFB76]
+	(No symbol) [0x008C49C1]
+	(No symbol) [0x008C5E5D]
+	GetHandleVerifier [0x00C7A142+2497106]
+	GetHandleVerifier [0x00CA85D3+2686691]
+	GetHandleVerifier [0x00CABB9C+2700460]
+	GetHandleVerifier [0x00AB3B10+635936]
+	(No symbol) [0x009A4A1F]
+	(No symbol) [0x009AA418]
+	(No symbol) [0x009AA505]
+	(No symbol) [0x009B508B]
+	BaseThreadInitThunk [0x754600F9+25]
+	RtlGetAppContainerNamedObjectPath [0x775E7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x775E7B8E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230121 13:52:09.790" endtime="20230121 13:52:16.230"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Register">Register</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
