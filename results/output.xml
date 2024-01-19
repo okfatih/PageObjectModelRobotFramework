@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.9 on win32)" generated="2024-01-19T13:07:21.875410" rpa="false" schemaversion="5">
+<suite id="s1" name="Key-Word.Demo" source="C:\development\robot-scripts\key-word.demo">
+<suite id="s1-s1" name="Tests" source="C:\development\robot-scripts\key-word.demo\tests">
+<suite id="s1-s1-s1" name="Demo" source="C:\development\robot-scripts\key-word.demo\tests\demo.robot">
+<test id="s1-s1-s1-t1" name="Adding new user" line="10">
+<kw name="Common.User opens the browser and goes the website">
+<msg time="2024-01-19T13:07:21.937444" level="FAIL">No keyword with name 'Common.User opens the browser and goes the website' found.</msg>
+<status status="FAIL" start="2024-01-19T13:07:21.935482" elapsed="0.002969">No keyword with name 'Common.User opens the browser and goes the website' found.</status>
+</kw>
+<kw name="Automation.Gui.User clicks on sign in button and enters his credentials">
+<status status="NOT RUN" start="2024-01-19T13:07:21.940958" elapsed="0.001008"/>
+</kw>
+<kw name="Automation.Gui.User adds a new customer">
+<status status="NOT RUN" start="2024-01-19T13:07:21.943641" elapsed="0.002404"/>
+</kw>
+<kw name="Automation.Gui.User verifies that a new customer has been added">
+<status status="NOT RUN" start="2024-01-19T13:07:21.949056" elapsed="0.001002"/>
+</kw>
+<kw name="User closes the webbrowser">
+<status status="NOT RUN" start="2024-01-19T13:07:21.952816" elapsed="0.002009"/>
+</kw>
+<doc>Sample test case with Keywords</doc>
+<tag>Smoke</tag>
+<status status="FAIL" start="2024-01-19T13:07:21.933101" elapsed="0.024724">No keyword with name 'Common.User opens the browser and goes the website' found.</status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="FAIL" start="2024-01-19T13:07:21.922997" elapsed="0.037830"/>
+</suite>
+<status status="FAIL" start="2024-01-19T13:07:21.919992" elapsed="0.044835"/>
+</suite>
+<status status="FAIL" start="2024-01-19T13:07:21.881416" elapsed="0.085411"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Key-Word.Demo">Key-Word.Demo</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Key-Word.Demo.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Demo">Key-Word.Demo.Tests.Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-01-19T13:07:21.924992" level="ERROR">Error in file 'C:\development\robot-scripts\key-word.demo\tests\demo.robot' on line 3: Resource file 'C:developmentobot-scriptsKEY-WORD.demoResourcesAutomation.Gui.robot' does not exist.</msg>
+<msg time="2024-01-19T13:07:21.930015" level="ERROR">Error in file 'C:\development\robot-scripts\key-word.demo\tests\demo.robot' on line 4: Resource file 'C:developmentobot-scriptskey-word.demoResourcesCommon.robot' does not exist.</msg>
+</errors>
+</robot>
